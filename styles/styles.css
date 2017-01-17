@@ -1,0 +1,221 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*------------------  End CSS Reset  -----------------*/
+body{
+	font-family: 'Lora', serif;
+	color: #000000;
+}
+
+h1 {
+	font-size: 38.4px;
+	line-height: 46px;
+	color: #272727;
+}
+
+h2 {
+	font-size: 28px;
+	line-height: 34px;
+}
+
+h3 {
+	font-size: 28px;
+	line-height: 34px;
+}
+
+h4 {
+	font-size: 19.8px;
+	line-height: 24px;
+}
+
+h5 {
+	font-size: 16.8px;
+	line-height: 21px;
+}
+
+h6 {
+	font-size: 16.8px;
+	line-height: 21px;	
+}
+
+.full-name-big {
+	font-size: 16.8px;
+	line-height: 21px;
+}
+
+.full-name-small {
+	font-size: 15.96px;
+	line-height: 19px;
+}
+
+.save-changes {
+	font-size: 13.44px;
+	line-height: 17px;
+}
+
+.footer-text {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 13.2px;
+	line-height: 18px;
+	color: #9a9a9a;
+}
+
+.add-friend {
+	font-size: 13.18px;
+	line-height: 16px;
+}
+
+.welcome {
+	font-size: 12.07px;
+	line-height: 14px;
+}
+
+.bio-paragraph {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 10.2px;
+	line-height: 14px;
+}
+
+.bio-tagline {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 10.2px;
+	line-height: 14px;
+}
+
+.ascending {
+	font-size: 6.6px;
+	line-height: 8px;
+}
+
+.text-white {
+	color: #ffffff;
+}
+
+.text-darkgray-27 {
+	color: #272727;
+}
+
+.text-darkgray-23 {
+	color: #232323;
+}
+
+.text-lightgray-b6 {
+	color: #b6b6b6;
+}
+
+.text-lightgray-9a {
+	color: #9a9a9a;
+}
+
+
+.main-container {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+.nav-main {
+	width: 100%;
+	height: 90px;
+	position: relative;
+}
+
+.header {
+	width: 100%;
+	height: 140px;
+	position: relative;
+}
+
+.header-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.content{
+	display: inline-block;
+	width: 100%;
+}
+
+.content-info {
+	background-color: grey;
+	float: left;
+	width: 40%;
+	height: 1060px;
+}
+
+.content-image {
+	background-color: darkgoldenrod;
+	float: left;
+	width: 60%;
+	height: 1060px;
+}
+
+.footer {
+	border-top: 2px solid #9a9a9a;
+	height: 90px;
+	width: 100%;
+}
+
+.footer-box {
+	position: relative;
+	width: calc(99%/3);
+	height: 90px;
+	display: inline-block;
+}
+
+.abs-centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
